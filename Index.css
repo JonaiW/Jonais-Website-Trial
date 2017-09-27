@@ -42,7 +42,12 @@ a, a:hover, a:active{ outline:0px !important}
 }
 
 /* Primary Styles
----------------------------------*/
+----------------*/
+.img-frame {
+    background:transparent;
+    padding:8px;
+    border:1px solid #999999; }
+
 body {
 	background:#fff;
 	font-family: 'sukhumvit set', sans-serif;
@@ -52,8 +57,9 @@ body {
 	margin:0;
 }
 h2{
+	background:url();
 	font-size:34px;
-	color:#222222;
+	color:black;
 	font-family: 'sukhumvit set', sans-serif;
 	font-weight:700;
 	letter-spacing: -1px;
@@ -71,7 +77,7 @@ h3{
 }
 h6{
 	font-size:16px;
-	color:#888888;
+	color:grey;
 	font-family: 'sukhumvit set', sans-serif;
 	font-weight:400;
 	text-align:center;
@@ -80,6 +86,7 @@ h6{
 p{
 	line-height:24px;
 	margin:0;
+	color:black
 }
 
 /* Header Styles
@@ -87,23 +94,25 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/pw_maze_black_2X.png) left top repeat;
-	padding:280px 0;
+	background:url(https://www.nasa.gov/sites/default/files/thumbnails/image/tyuleniy_oli_2016097_lrg_a.jpg) ;
+	padding:400px 0;
+	height:450px;
+	border-top: 90px solid rgba(17,17,17,0.80) ;
+	border-bottom:90px solid rgba(17,17,17,0.80) ;
+	background-size:contain;
 }
 .logo{
 	width:1000px;
 	margin:0 auto 35px;
 }
-.header h1{
 
-}
 .header h1{
 	font-family: 'sukhumvit set';
 	font-size:20px;
 	font-weight:50;
 	letter-spacing: -1px;
 	margin:0 0 22px 0 ;
-	color:black;
+	color:white;
 }
 
 .we-create{
@@ -629,7 +638,7 @@ border: 2px solid #fff;
 	text-align:center;
 	line-height:50px;
 	font-size:25px;
-	color:#fff;
+	color:lightgreen;
 	background:#222222;
 	border-radius:50%;
 	transition:all 0.3s ease-in-out;
