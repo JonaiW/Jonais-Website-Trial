@@ -94,16 +94,20 @@ p{
 
 .header{
 	text-align:center;
-	background:url(https://www.nasa.gov/sites/default/files/thumbnails/image/tyuleniy_oli_2016097_lrg_a.jpg) ;
+	background:url(https://www.nasa.gov/sites/default/files/thumbnails/image/tyuleniy_oli_2016097_lrg_a.jpg) no-repeat ;
 	padding:400px 0;
 	height:450px;
-	border-top: 90px solid rgba(17,17,17,0.80) ;
-	border-bottom:90px solid rgba(17,17,17,0.80) ;
+	border-top: 50px solid rgba(0,0,0,0,.3);
 	background-size:contain;
+
+  	
 }
 .logo{
-	width:1000px;
+	width:200px;
 	margin:0 auto 35px;
+	position: absolute;
+	top: 10px;
+	
 }
 
 .header h1{
