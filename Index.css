@@ -2,7 +2,9 @@ fl-lt {float:left;}
 .fl-rt {float:right;}
 
 
-
+.Picture1{
+	
+}
 
 .clear {
   clear: both;
@@ -41,8 +43,7 @@ a, a:hover, a:active{ outline:0px !important}
   font-style: normal;
 }
 
-/* Primary Styles
-----------------*/
+
 .img-frame {
     background:transparent;
     padding:8px;
@@ -55,6 +56,7 @@ body {
 	font-weight:normal;
 	color:#888888;
 	margin:0;
+	padding:0;
 }
 h2{
 	background:url();
@@ -89,8 +91,7 @@ p{
 	color:black
 }
 
-/* Header Styles
----------------------------------*/
+
 
 .header{
 	text-align:center;
@@ -103,10 +104,12 @@ p{
   	
 }
 .logo{
-	width:200px;
+	width:0%;
 	margin:0 auto 35px;
-	position: absolute;
-	top: 10px;
+	position: relative;
+	height:0px;
+	top:0px;
+	
 	
 }
 
