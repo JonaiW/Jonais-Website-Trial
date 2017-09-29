@@ -2,9 +2,7 @@ fl-lt {float:left;}
 .fl-rt {float:right;}
 
 
-.Picture1{
-	
-}
+
 
 .clear {
   clear: both;
@@ -68,6 +66,13 @@ h2{
 	margin:0 0 15px 0;
 	text-align:center;
 	text-transform:uppercase;
+	transform: translateY(50px);
+	transition: all 1s ease-out;
+	opacity: 0;
+}
+.h2.fade-in {
+	opacity: 1;
+	transform: translateY(0px);
 }
 h3{
 	font-family: 'sukhumvit set', sans-serif;

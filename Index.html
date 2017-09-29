@@ -19,10 +19,12 @@
 <link href="css/animate.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="Index.css">
 
-
-
-
-
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/debug.addIndicators.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/scrollmagic/uncompressed/ScrollMagic.js"></script>
 <script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
@@ -31,7 +33,7 @@
 <script type="text/javascript" src="js/wow.js"></script>
 <script type="text/javascript" src="js/classie.js"></script>
 <script src="contactform/contactform.js"></script>
-
+<script src="js/main.js"></script>
 
 
 </head>
@@ -66,10 +68,10 @@
 
 <section class="main-section" id="service">
 	<div class="container">
-    	<h2 class="revealOnScroll" data-animation="zoomInUp">Services</h2>
-    	<h6>We offer exceptional service .</h6>
+    	<h2 >Services</h2>
+    	<h6></h6>
         <div class="row">
-        	<div class="block revealOnScroll"data-animation="zoomInUp">
+        	<div class=" animated zoomInUp">
             	<div class="service-list">
                 	<div class="service-list-col1">
                     	<i class="fa-paw"></i>
@@ -239,7 +241,7 @@
             <div class="team-leader-box">
                 <div class=""> 
                     <div class="team-leader-shadow"><a href="#"></a></div>
-                    <img src="img/team-leader-pic3.jpg" alt="">
+                    <img src="Picture/Aiimage3.jpg" alt="">
                     <ul>
                         <li><a href="#" class="fa-youtube"></a></li>
                          <li><a href="#" class="fa-linkedin"></a></li>
@@ -266,7 +268,7 @@
         <div class="row">
         	<div class="">
             	<div class="contact-info-box address clearfix">
-                	<h3><i class=" icon-map-marker"></i>Address:</h3>
+                	<h3><i class=" icon-map-marker"></i>Address</h3>
                 	<span><br>St.louis,Missouri.</span>
                 </div>
                 <div class="contact-info-box phone clearfix">
@@ -323,51 +325,6 @@
     </div>
 </footer>
 
-<script>
-$(function() {
-
-  var $window           = $(window),
-      win_height_padded = $window.height() * 1.1,
-      isTouch           = Modernizr.touch;
-
-  if (isTouch) { $('.revealOnScroll').addClass('animated'); }
-
-  $window.on('scroll', revealOnScroll);
-
-  function revealOnScroll() {
-    var scrolled = $window.scrollTop(),
-        win_height_padded = $window.height() * 1.1;
-
-    // Showed...
-    $(".revealOnScroll:not(.animated)").each(function () {
-      var $this     = $(this),
-          offsetTop = $this.offset().top;
-
-      if (scrolled + win_height_padded > offsetTop) {
-        if ($this.data('timeout')) {
-          window.setTimeout(function(){
-            $this.addClass('animated ' + $this.data('animation'));
-          }, parseInt($this.data('timeout'),10));
-        } else {
-          $this.addClass('animated ' + $this.data('animation'));
-        }
-      }
-    });
-    // Hidden...
-   $(".revealOnScroll.animated").each(function (index) {
-      var $this     = $(this),
-          offsetTop = $this.offset().top;
-      if (scrolled + win_height_padded < offsetTop) {
-        $(this).removeClass('animated zoomInUp ')
-      }
-    });
-  }
-
-  revealOnScroll();
-});
-
-</script>
-  
 
 </body>
 </html>
