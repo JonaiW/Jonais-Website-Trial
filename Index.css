@@ -65,13 +65,10 @@ h2{
 	letter-spacing: -1px;
 	margin:0 0 15px 0;
 	text-align:center;
-	text-transform:uppercase;
 	transform: translateY(50px);
 	transition: all 1s ease-out;
-	opacity: 0;
 }
 .h2.fade-in {
-	opacity: 1;
 	transform: translateY(0px);
 }
 h3{
@@ -103,8 +100,8 @@ p{
 	background:url(https://www.nasa.gov/sites/default/files/thumbnails/image/tyuleniy_oli_2016097_lrg_a.jpg) no-repeat ;
 	padding:400px 0;
 	height:450px;
-	border-top: 50px solid rgba(0,0,0,0,.3);
 	background-size:contain;
+	
 
   	
 }
