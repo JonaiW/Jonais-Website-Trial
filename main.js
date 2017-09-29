@@ -6,10 +6,10 @@ $(document).ready(function(){
 
 			var scene = new ScrollMagic.Scene({
 				triggerElement:'#Service',
-				duration:'300'
+				duration:300
 			})
 							// trigger animation by adding a css class
 				.setClassToggle('#Services', 'fadeIn')	
-				.addIndicators()
+				.addIndicators({})
 				.addTo(controller);
 });
