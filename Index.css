@@ -96,7 +96,15 @@ p{
 	color:black
 }
 
+.logo{
+	width:0%;
+	margin:0 auto 35px;
+	position: absolute;
+	height:0x;
+	top:0px;
+	float:left;
 
+}
 
 .header{
 	text-align:center;
@@ -104,21 +112,18 @@ p{
 	padding:400px 0;
 	height:450px;
 	background-size:contain;
+	width: 110%;
+	background-color: #b9daeb;
+	margin: 10px 0;
+	
+    
+}	
+
+
+	
 	
 
   	
-}
-.logo{
-	width:0%;
-	margin:0 auto 35px;
-	position: absolute;
-	height:0x;
-	top:0px;
-	
-	
-	
-}
-
 .header h1{
 	font-family: 'sukhumvit set';
 	font-size:20px;
