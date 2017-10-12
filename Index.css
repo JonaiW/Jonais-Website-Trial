@@ -47,7 +47,7 @@ a, a:hover, a:active{ outline:0px !important}
 	position: absolute;
 	top: 8px;
     left: 16px;
-	height:100px;
+	height:150px;
 	text-align:left
 }
 .img-frame {
@@ -109,10 +109,16 @@ p{
 .header{
 	text-align:center;
 	background:url('https://www.nasa.gov/sites/default/files/thumbnails/image/tyuleniy_oli_2016097_lrg_a.jpg') no-repeat ;
+	box-shadow:black;
+	border-top:solid black 90px;
+	border-bottom:solid black 60px;
+	border-style: solid black;	
 	padding:400px 0;
 	height:450px;
-	background-size:contain;	
+	background-size:cover;
+	
 }
+
    
 
 .header h1{
