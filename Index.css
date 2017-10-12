@@ -41,7 +41,15 @@ a, a:hover, a:active{ outline:0px !important}
   font-style: normal;
 }
 
-
+.zoomIn{
+	width:30%;
+	margin:0 auto 35px;
+	position: absolute;
+	top: 8px;
+    left: 16px;
+	height:100px;
+	text-align:left
+}
 .img-frame {
     background:transparent;
     padding:8px;
@@ -96,41 +104,26 @@ p{
 	color:black
 }
 
-.logo{
-	width:0%;
-	margin:0 auto 35px;
-	position: absolute;
-	height:0x;
-	top:0px;
-	float:left;
 
-}
 
 .header{
 	text-align:center;
-	background:url(https://www.nasa.gov/sites/default/files/thumbnails/image/tyuleniy_oli_2016097_lrg_a.jpg) no-repeat ;
+	background:url('https://www.nasa.gov/sites/default/files/thumbnails/image/tyuleniy_oli_2016097_lrg_a.jpg') no-repeat ;
 	padding:400px 0;
 	height:450px;
-	background-size:contain;
-	width: 110%;
-	background-color: #b9daeb;
-	margin: 10px 0;
-	
-    
-}	
+	background-size:contain;	
+}
+   
 
-
-	
-	
-
-  	
 .header h1{
-	font-family: 'sukhumvit set';
-	font-size:20px;
+	font-family: 'sukhumvit set',sans-serif;
+	font-size:75px;
 	font-weight:50;
 	letter-spacing: -1px;
 	margin:0 0 22px 0 ;
-	color:white;
+	color:whitesmoke;
+	text-align:center;
+	top:0;
 }
 
 .we-create{
@@ -164,6 +157,7 @@ color: #fff;
 
 
 .link{
+	text-align:center;
 	padding:15px 35px;
 	background:#7cc576;
 	color:#fff !important;
@@ -193,18 +187,16 @@ color: #fff;
 
 /* Navigation
 ---------------------------------*/
-.main-nav-outer{
-	padding:0px;
-	border-bottom:1px solid #dddddd;
-	box-shadow:0 4px 5px -3px #ececec;
-	position:relative;
-	background:#fff;
-}
+
+
 .main-nav{
-	text-align:center;
+	width: 100%;
+    position: absolute;
+	top: 0;
 	margin:10px 0 0px;
 	padding:0;
 	list-style:none;
+	text-align:center;
 }
 .main-nav li{
 	display:inline;
@@ -212,7 +204,7 @@ color: #fff;
 }
 .main-nav li a{
 	display:inline-block;
-	color:#222222;
+	color:whitesmoke;
 	text-transform:uppercase;
 	font-family: 'sukhumvit set', sans-serif;
 	text-decoration: none;
@@ -228,9 +220,7 @@ color: #fff;
 	color: #7cc576;
 }
 
-.small-logo{ 
-	padding:0 32px;
-}
+
 
 .main-section{
 	padding:90px 0 110px;
