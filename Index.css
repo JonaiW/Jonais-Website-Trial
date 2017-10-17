@@ -48,7 +48,20 @@ a, a:hover, a:active{ outline:0px !important}
 	top: 8px;
     left: 16px;
 	height:150px;
-	text-align:left
+	text-align:left;	
+    -moz-background-clip: border;     /* Firefox 3.6 */
+    -webkit-background-clip: border;  /* Safari 4? Chrome 6? */
+     background-clip: border-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+     -moz-background-clip: padding;     /* Firefox 3.6 */
+    -webkit-background-clip: padding;  /* Safari 4? Chrome 6? */
+    background-clip: padding-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */					
+    -moz-background-clip: content;     /* Firefox 3.6 */
+ -  webkit-background-clip: content;  /* Safari 4? Chrome 6? */
+   background-clip: content-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+						
+		
+	
+	
 }
 .img-frame {
     background:transparent;
@@ -108,11 +121,11 @@ p{
 
 .header{
 	text-align:center;
-	background:url('https://www.nasa.gov/sites/default/files/thumbnails/image/tyuleniy_oli_2016097_lrg_a.jpg') no-repeat ;
+	background:url('https://www.nasa.gov/sites/default/files/thumbnails/image/tyuleniy_oli_2016097_lrg_a.jpg'), no-repeat ;
 	box-shadow:black;
-	border-top:solid black 90px;
+	border-top: rgba(17,17,17,0.80) 90px;
 	border-bottom:solid black 60px;
-	border-style: solid black;	
+	border-style: solid black ;	
 	padding:400px 0;
 	height:450px;
 	background-size:cover;
@@ -129,6 +142,7 @@ p{
 	color:whitesmoke;
 	text-align:center;
 	top:0;
+	text-shadow:black 0.1em 0.1em 0.2em;
 }
 
 .we-create{
@@ -202,6 +216,7 @@ color: #fff;
 	padding:0;
 	list-style:none;
 	text-align:center;
+	text-shadow:black 0.1em 0.1em 0.2em;
 }
 .main-nav li{
 	display:inline;
