@@ -42,23 +42,13 @@ a, a:hover, a:active{ outline:0px !important}
 }
 
 .zoomIn{
-	width:30%;
+	width:32%;
 	margin:0 auto 35px;
 	position: absolute;
 	top: 8px;
     left: 16px;
-	height:150px;
-	text-align:left;	
-    -moz-background-clip: border;     /* Firefox 3.6 */
-    -webkit-background-clip: border;  /* Safari 4? Chrome 6? */
-     background-clip: border-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
-     -moz-background-clip: padding;     /* Firefox 3.6 */
-    -webkit-background-clip: padding;  /* Safari 4? Chrome 6? */
-    background-clip: padding-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */					
-    -moz-background-clip: content;     /* Firefox 3.6 */
- -  webkit-background-clip: content;  /* Safari 4? Chrome 6? */
-   background-clip: content-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
-						
+	height:200px;
+	text-align:center;
 		
 	
 	
@@ -123,20 +113,21 @@ p{
 	text-align:center;
 	background:url('https://www.nasa.gov/sites/default/files/thumbnails/image/tyuleniy_oli_2016097_lrg_a.jpg'), no-repeat ;
 	box-shadow:black;
-	border-top: rgba(17,17,17,0.80) 90px;
-	border-bottom:solid black 60px;
 	border-style: solid black ;	
 	padding:400px 0;
 	height:450px;
 	background-size:cover;
+	-moz-box-shadow:    inset 0 0 280px #000000;
+	-webkit-box-shadow: inset 0 0 280px #000000;
+	box-shadow:         inset 0 0 280px #000000;
 }
 
    
 
 .header h1{
 	font-family: 'sukhumvit set',sans-serif;
-	font-size:75px;
-	font-weight:50;
+	font-size:45px;
+	font-weight:10;
 	letter-spacing: -1px;
 	margin:0 0 22px 0 ;
 	color:whitesmoke;
@@ -215,7 +206,7 @@ color: #fff;
 	margin:10px 0 0px;
 	padding:0;
 	list-style:none;
-	text-align:center;
+	text-align:right;
 	text-shadow:black 0.1em 0.1em 0.2em;
 }
 .main-nav li{
