@@ -627,6 +627,7 @@ border: 2px solid #fff;
 	width:102px;
 	margin-right:12px;
 	line-height:28px;
+	text-align:center;
 }
 .contact-info-box h3 i{
 	font-style:normal;
@@ -635,6 +636,7 @@ border: 2px solid #fff;
 	font-family: 'FontAwesome';
 	font-weight:normal;
 	margin-right:7px;
+	;
 }
 .contact-info-box span{
 	line-height:28px;
