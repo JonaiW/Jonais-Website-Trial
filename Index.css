@@ -71,7 +71,7 @@ h2{
 	background:url();
 	font-size:34px;
 	color:black;
-	font-family: 'sukhumvit set', sans-serif;
+	font-family: 'Open Sans',Regular;
 	font-weight:500;
 	letter-spacing: -1px;
 	text-align:center;
@@ -83,7 +83,7 @@ h2{
 	opacity:0;
 }
 h3{
-	font-family: 'sukhumvit set', sans-serif;
+	font-family: 'Open Sans', Regular;
 	color:#222222;
 	font-size:16px;
 	margin:0 0 5px 0;
@@ -273,7 +273,7 @@ color: #fff;
 	font-size:14px;
 }
 .featured-work h2{
-	text-align:left;
+	text-align:center;
 }
 .featured-box{
 	padding:0 0 0 0;
